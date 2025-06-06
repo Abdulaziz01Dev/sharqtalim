@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="w-full gap-4 items-center h-[5vh] justify-evenly flex bg-[#c9c5bd] z-[100] rounded-full shadow-sm shadow-black sticky top-0 left-0 mt-5">
+        <div className="w-full overflow-hidden gap-4 items-center h-[5vh] justify-evenly flex bg-[#c9c5bd] z-[100] rounded-full shadow-sm shadow-black sticky top-0 left-0 mt-5">
             <div className="flexitems-center justify-between">
                 {/* Bu rasm faqat dark mode-da ko‘rinadi */}
                 <img
@@ -12,11 +12,11 @@ const Header = () => {
                 />
             </div>
             <div className="flex items-center justify-center">
-                <ul className="flex items-center gap-4 text-gray-950 text-lg xl:gap-10 xl:text-2xl">
+                <ul className="flex items-center gap-4 text-gray-950 text-[10px] xl:gap-10 xl:text-2xl">
                     <li><a href="/">Asosiy</a></li>
                     <li><a href="/Project">Proyektlar</a></li>
                     <li><a href="/Contact">Bog'lanish</a></li>
-                    <li><a href="/About">Biz Haqimizda</a></li>
+                    <li><a href="/About">Haqimizda</a></li>
                 </ul>
             </div>
             <div className="flex items-center">

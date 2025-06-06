@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'       // AOS CSS
 import { useEffect } from 'react'
 import AOS from 'aos'
 import Hero from "@/Layouts/Hero";
+import Footer from "@/Layouts/Footer";
 
 export default function Home() {
     useEffect(() => {
@@ -18,9 +19,10 @@ export default function Home() {
     }, [])
 
     return (
-        <main className="h-full w-full lg:w-[60%] mx-auto border-1 border-l-amber-50 border-r-amber-50 border-t-transparent border-b-transparent overflow-y-auto p-4 text-black">
+        <main className="w-full h-full lg:w-[60%] mx-auto border-1 border-l-amber-50 border-r-amber-50 border-t-transparent border-b-transparent overflow-y-auto p-4 text-black">
             <Header />
             <Hero />
+            <Footer />
         </main>
     );
 }
